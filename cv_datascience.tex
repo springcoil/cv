@@ -1,0 +1,177 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%% Copyright 2010-2011 Mark Liu (markwayneliu@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper]{moderncv}
+
+\usepackage{verbatim, url}
+
+% moderncv themes
+\moderncvtheme[blue]{classic} % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic} % idem
+
+% character encoding
+\usepackage[utf8]{inputenc} % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.9]{geometry}
+%\setlength{\hintscolumnwidth}{3cm} % if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}} % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths} % required when changes are made to page layout lengths
+
+
+% personal data
+\firstname{Peadar}
+\familyname{Coyle}
+\address{Esch-sur-Alzette}{Luxembourg} % optional, remove the line if not wanted
+ % optional, remove the line if not wanted
+\mobile{00352661878663}
+\email{peadarcoyle@googlemail.com} % optional, remove the line if not wanted
+\homepage{http://about.me/peadarcoyle} % optional, remove the line if not wanted
+ % optional, remove the line if not wanted
+ %\photo[64pt]{profilepic2}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\quote{Profile: I analyze data, quantify what is known and deliver insights into that which is unknown..}           
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+%\nopagenumbers{} % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+% content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+
+\maketitle
+
+\section{Experience}
+\cventry{Feb 2015 - present}{Vodafone Procurement Company}{Energy Analyst}{}{}{
+\begin{itemize}
+\item Led a data process improvement initiative which reduced operational load on the Category Managers.
+\item Developed Proof of Concept Forecasting tool to enhance visibility of energy prices.
+\item Represented the Energy team in a Contract Management Working Group
+\item Streamlined Historical Volatility calculation for Risk analysis in Energy procurement
+\item Operational support and technical analysis on specifications of new Software tools such as an Energy Data Visualization tool.
+\item Promoted from a short term contract to a permanent role in April 2015
+\end{itemize}}
+\cventry{July 2014 - January 2015}{A-Syst SA}{Data Analyst}{6 month contract}{}{
+\begin{itemize}
+\item Lead Data Analyst and Analytics Product Architect on a Data intensive Software Product for Turbulence
+prediction, working as part of a team of 5. This project was shortlisted for an award.
+\item Developed a 'Data Strategy Roadmap'. Presenting the results to senior management and the directors.
+\item Constructing and evaluating predictive models of airline delays using Random Forests, Logistic Regression, Support Vector Machines.
+\item Coordination with SDEs to implement complex models at production scale 
+\item Taught good data science processes to SDEs, Managers and Senior Managers
+\item ETL with large amounts of data from diverse sources including Pig, Oracle, PostgreSQL, and APIs
+\item Sentiment analysis of Twitter data using text-mining and showcasing results using D3.js 
+\end{itemize}}
+\cventry{March - May 2014}{TriFinance}{Freelance Data Science Consultant}{}{}{
+\begin{itemize}
+\item Developed a basket analysis model and survival analysis that could increase sales of one product group by 20\% yoy using R and SQL 
+\item Coordination with other analysts and engineers to achieve project delivery.
+\item ETL with large amounts of data from diverse sources including MySQL and APIs.
+\end{itemize}}
+
+\cventry{July 2013 - January 2014}{Amazon EU Sarl}{Data Analyst Intern}{6 Month Contract}{}{
+\begin{itemize}
+\item Lead and developed an email reporting tool in the Supply Chain Execution team, saving 5 hours per week on support tasks.
+\item Produced an analytics roadmap to enhance standardisation in metrics reporting and data analytics tooling.   
+\item Taught statistical inference and hypothesis testing to internal stakeholders.
+\item Visualizing results of analysis and helping to construct reporting for non-experts using R, ggplot,
+matplotlib, Tableau and Django
+\end{itemize}}
+
+\cventry{Summer 2012}{Data Science Intern}{http://import.io}{London}{}{Worked as part of a Data team at an 
+award-winning startup
+\begin{itemize}
+\item Worked as part of a Data team on Data problems learning the importance of good data integrity and an appreciation of the complexity of business data.
+ \item As part of a Data Science project, developed some Python code for a NLP problem. Learning about the implementation of Mathematical concepts in Code.
+\item Gained insight into the technology market and cultural differences amongst consumers by leading a Business Intelligence project investigating 
+emerging markets and North America with both the Marketing team and the Data team.
+\end{itemize}}
+
+\cventry{Summer 2009}{Data Scientist Intern}{LetsFace}{Shanghai}{}{Initiated the research and development of a new Event management product
+\begin{itemize}%
+\item Market research of what became the product at http://letsface.cn/
+\item Working closely with the CEO and Marketing director on the key customer groups - using k-means clustering for analysis.
+\end{itemize}}
+\cventry{Sept 2008 - June 2010}{Technician}{Our Ladys Grammar School}{Newry}{}{Supervised an A Level Physics class
+\begin{itemize}
+ \item Presented expert knowledge, both verbally and in writing, in a comfortable, professional manner
+\item My experience working in a school enhanced my communication skills through presentations,
+resilience by overcoming the challenges of supporting youngsters in their education, innovation by delivering results on a
+modest budget e.g. using python scripts to explain Physics and negotiation skills by working with students and teachers.
+\item Developed leadership skills through supervising and leading projects such as Young Scientist competitions. 
+\item Initialized and led the promotion of promotion skills throughout the school as part of promoting coding for students, before 
+handing this over to the Technology department before my departure.
+\end{itemize}}
+
+
+
+\section{Education}
+\cventry{2010 - 2014}{MSc}{University of Luxembourg}{Luxembourg}{}{Masters in Mathematics}
+\cventry{2005-2008}{BSc}{University of Bristol}{UK}{}{Bachelors in Physics and Philosophy}
+
+
+\section{Masters Thesis}
+\cvline{title}{\emph{Concentration of Measure and Statistical Learning Theory applied to Time Series models}}
+\section{Bachelors thesis}
+\cvline{title}{\emph{On the Anholonomy of Light in Coiled Optical Fibers}}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Data Science community contributions and projects}
+\cvitem{2015}{PyCon Italy- PyData track - How to get Data Science Models into Production}
+\cvitem{2015}{A probabilistic programming approach to predicting the Six Nations the first major submission to
+the acclaimed open source book \textbf{Probabilistic-Programming-and-Bayesian-Methods-for-Hackers} \url{http://bit.ly/1FcoERX}} 
+\cvitem{2014}{Regularly blog and use social media to discuss data science}
+\cvitem{2014}{I enjoy giving presentations on data science to non-technical and technical audiences -
+ \url{http://www.speakerdeck.com/springcoil}}
+\cvitem{2014-}{I have made contributions to Python Open Source projects such as the popular Pandas library and I am an Open Source advocate}
+\cvitem{2005-}{Tutor on Mathematics, Physics, Problem Solving, Programming and Statistics to a range of clients}
+\section{Soft and Analytical skills}
+\cvitem{Presentation}{Experienced speaker about data and business problems to technical and non-technical audiences}
+\cvitem{Perseverance}{ Maintained self-motivation while working independently to achieve a difficult long-term goal}
+\section{Computer skills}
+\cvitem{Technologies}{Matlab, Shell, Python, Excel, \LaTeX, SQL, R, Github, Agile, Hive}
+\cvitem{Concepts}{NLP, Probabilistic Models, Machine Learning, Data Mining, Data Structures}
+\section{Mathematics skills}
+\cvitem{Super}{Stochastic Analysis, Forecasting, Statistical Inference, Bayesian Statistics, Probability, Topology, Mathematical Finance, Statistics}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitem{English}{Native}{}
+\cvitem{French}{Basic}{}
+
+
+
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+% \nocite{*}
+% \bibliographystyle{plain}
+% \bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
+
+
+\end{document}
